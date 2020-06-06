@@ -1,7 +1,7 @@
 let profile;
 let skills;
 
-$.getJSON("profile.json", function (json) {
+$.getJSON("resources/data/profile.json", function (json) {
     profile = json;
     init();
     displayInfo(profile.workExperience, workTemplate, "workInfo");
@@ -10,7 +10,7 @@ $.getJSON("profile.json", function (json) {
     displayInfo(profile.awards, awardTemplate, "awardInfo");
 });
 
-$.getJSON("skills.json", function (json) {
+$.getJSON("resources/data/skills.json", function (json) {
     skills = json;
     displaySkillsGraph();
 });
