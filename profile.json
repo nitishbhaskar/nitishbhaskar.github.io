@@ -1,0 +1,94 @@
+{
+    "name": "Nitish Bhaskar",
+    "aboutMe": "Passionate Software Developer with 6+ years of knowledge and experience in system design,development, implementation and support of web based applications using best practices",
+    "workExperience": [
+        {
+            "company": "Fedex Services",
+            "location": "Collierville, TN, USA",
+            "position": "Programmer Analyst",
+            "datesEmpoyed": "Jun 2017 - Present",
+            "jobDuties": [
+                "Responsible for developing RESTful services and tools using lean-agile practices for internalteams using Geographic Information System (GIS) technologies",
+                "Developed a tool to automate ride inspection of delivery drivers using GPS breadcrumbsof the truck which reduced the feedback time from weeks to a day",
+                "Improved package delivery accuracy by 20% by building a web application which analyzesthe historical delivery data for a given location"
+            ]
+        },
+        {
+            "company": "Syrasoft Self Storage Software",
+            "location": "Baldwinsville, NY, USA",
+            "position": "Android Developer (Part-Time)",
+            "datesEmpoyed": "Jan 2017 - May 2017",
+            "jobDuties": [
+                "Designed and developed an android application for managing self-storage facility",
+                "Improved user experience by simplifying payments process by developing credit/debit cardscanner feature",
+                "Optimized the process of adding customers by building drivers license barcode scannerusing Google Vision API"
+            ]
+        },
+        {
+            "company": "Fedex Services",
+            "location": "Collierville, TN, USA",
+            "position": "Information Technology Intern",
+            "datesEmpoyed": "Jun 2016 - Aug 2016",
+            "jobDuties": [
+                "Constructed a responsive web application to enhance package delivery location using ESRI ArcGIS JS API",
+                "Implemented 2D and 3D maps to improve user experience by leveraging ESRI’s ArcGIS JavaScript API v4",
+                "Programmed bulk upload feature to import GPS data from shipment delivery scans"
+            ]
+        },
+        {
+            "company": "Tata Consultancy Services",
+            "location": "Bangalore, India",
+            "position": "Systems Engineer - Full Stack",
+            "datesEmpoyed": "Nov 2012 - Jul 2015",
+            "jobDuties": [
+                "Developed a full-stack claim administration system in an agile team using Angular JS and ASP .NET MVC4 for a UK based health insurance company",
+                "Simplified code refactoring and documentation by using Test Driven Development (TDD)",
+                "Eliminated manual deployment of code by building one-click deployment tool to ensure continous delivery"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Syracuse University",
+            "location": "New York, USA",
+            "degree": "Master of Science in Computer Engineering",
+            "usGpa": "3.87/4.0",
+            "germanGpa": "1.2/5.0",
+            "timePeriod": "Aug 2015 - May 2017"
+        },
+        {
+            "institution": "Visvesvaraya Technological University",
+            "location": "Karnataka, India",
+            "degree": "Bachelor of Engineering in Information Science and Engineering",
+            "usGpa": "3.59/4.0",
+            "germanGpa": "1.7/5.0",
+            "timePeriod": "Sep 2008 - Jun 2012"
+        }
+    ],
+    "awards": [
+        {
+            "name": "Bravo Zulu Award",
+            "description": "For going above and beyond in collaborating with other teams",
+            "date": "Nov 2019"
+        },
+        {
+            "name": "IT Hall of Fame",
+            "description": "In recognition of unique and innovative contributions and outstanding",
+            "date": "May 2019"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Bingo!",
+            "description": "Built this game of chance to play with family across the globe during coronavirus outbreak",
+            "url": "https://bingo-number-generator.herokuapp.com/",
+            "githubUrl": "https://github.com/nitishbhaskar/bingo-generator"
+        },
+        {
+            "name": "Portfolio Page",
+            "description": "Built this page to showcase my work",
+            "url": "www.nitishbhaskar.com",
+            "githubUrl": "https://github.com/nitishbhaskar/nitishbhaskar.github.io"
+        }
+    ]
+}

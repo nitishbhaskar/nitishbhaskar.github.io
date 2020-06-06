@@ -1,0 +1,103 @@
+{
+    "type": "wordcloud",
+    "options": {
+        "words": [
+            {
+                "text": "Java",
+                "count": 90
+            },
+            {
+                "text": "SpringBoot",
+                "count": 70
+            },
+            {
+                "text": "Jenkins",
+                "count": 60
+            },
+            {
+                "text": "JUnit",
+                "count": 65
+            },
+            {
+                "text": "JMS",
+                "count": 45
+            },
+            {
+                "text": "Maven",
+                "count": 60
+            },
+            {
+                "text": "NodeJS",
+                "count": 75
+            },
+            {
+                "text": "JavaScript",
+                "count": 70
+            },
+            {
+                "text": "Jest",
+                "count": 65
+            },
+            {
+                "text": "ESRI ArcGIS",
+                "count": 40
+            },
+            {
+                "text": "Mustache JS",
+                "count": 55
+            },
+            {
+                "text": "GitLab",
+                "count": 70
+            },
+            {
+                "text": "Pivotal Cloud Foundry",
+                "count": 65
+            },
+            {
+                "text": "Grafana",
+                "count": 45
+            },
+            {
+                "text": "Prometheus",
+                "count": 50
+            },
+            {
+                "text": "SwiftStack S3",
+                "count": 65
+            },
+            {
+                "text": "Android",
+                "count": 50
+            },
+            {
+                "text": "Google Vision API",
+                "count": 30
+            },
+            {
+                "text": "SVN",
+                "count": 30
+            },
+            {
+                "text": "TDD",
+                "count": 65
+            },
+            {
+                "text": "CI/CD",
+                "count": 70
+            },
+            {
+                "text": "HTML",
+                "count": 65
+            },
+            {
+                "text": "CSS",
+                "count": 60
+            },
+            {
+                "text": "Agile",
+                "count": 63
+            }
+        ]
+    }
+}
