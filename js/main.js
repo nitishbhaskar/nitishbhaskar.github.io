@@ -8,11 +8,12 @@ $.getJSON("resources/data/profile.json", function (json) {
     displayInfo(profile.education, educationTemplate, "educationInfo");
     displayInfo(profile.projects, projectTemplate, "projectInfo");
     displayInfo(profile.awards, awardTemplate, "awardInfo");
+    displayInfo(profile.skills, skillTemplate, "skillInfo");
 });
 
 $.getJSON("resources/data/skills.json", function (json) {
     skills = json;
-    displaySkillsGraph();
+    //displaySkillsGraph();
 });
 
 function init() {
@@ -47,11 +48,9 @@ const educationTemplate = "<div class=\"card w-100\">" +
 const projectTemplate = "<div class=\"card w-100\">" +
     "<div class=\"card-body\">" +
     "<h5 class=\"card-title\">{{name}}</h5>" +
-    "<h6 class=\"float-right card-subtitle mb-2 text-muted\"></h6>" +
-    "<h6 class=\"card-subtitle mb-2 text-muted\"></h6>" +
-    "<p>{{description}}</p>" +
-    "<a href={{url}} target=\"_blank\" class=\"btn btn-primary margin5\">Open App</a>" +
-    "<a href={{githubUrl}} target=\"_blank\" class=\"btn btn-warning margin5\">View on GitHub</a>" +
+    "<a href={{url}} target=\"_blank\" class=\"float-right btn btn-primary btn-sm margin5\">Open App</a>" +
+    "<a href={{githubUrl}} target=\"_blank\" class=\"float-right btn btn-warning btn-sm margin5\">View on GitHub</a>" +
+    "<span>{{description}}</span>" +
     "</div></div>";
 
 const awardTemplate = "<div class=\"card w-100\">" +
@@ -60,6 +59,14 @@ const awardTemplate = "<div class=\"card w-100\">" +
     "<h6 class=\"float-right card-subtitle mb-2 text-muted\">{{date}}</h6>" +
     "<h6 class=\"card-subtitle mb-2 text-muted\">{{description}}</h6>" +
     "<p></p>" +
+    "</div></div>";
+
+const skillTemplate = "<div class=\"card w-100\">" +
+    "<div class=\"card-body\">" +
+    "<h4 class=\"card-title\">{{type}}</h4>" +
+    "{{#list}}" +
+    "<span class=\"badge badge-primary badge-pill skillBadge\">{{.}}</span>" +
+    "{{/list}}" +
     "</div></div>";
 
 /* Mustache Templates */

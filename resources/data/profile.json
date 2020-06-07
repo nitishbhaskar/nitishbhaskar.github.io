@@ -90,5 +90,53 @@
             "url": "#",
             "githubUrl": "https://github.com/nitishbhaskar/nitishbhaskar.github.io"
         }
+    ],
+    "skills": [
+        {
+            "type": "Languages",
+            "list": [
+                "Java",
+                "JavaScript",
+                "TypeScript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "type": "Technologies/Framework",
+            "list": [
+                "SpringBoot",
+                "NodeJS",
+                "Angular"
+            ]
+        },
+        {
+            "type": "Test Framework",
+            "list": [
+                "JUnit",
+                "Jest"
+            ]
+        },
+        {
+            "type": "Databases",
+            "list": [
+                "Oracle SQL",
+                "AWS S3"
+            ]
+        },
+        {
+            "type": "Others",
+            "list": [
+                "Pivotal Cloud Foundry",
+                "Jenkins",
+                "JMS",
+                "Maven",
+                "Prometheus",
+                "Grafana",
+                "GitLab",
+                "Bootstrap",
+                "ESRI ArcGIS"
+            ]
+        }
     ]
 }
