@@ -3,6 +3,17 @@
     "aboutMe": "Passionate Software Developer with 6+ years of knowledge and experience in system design, development, implementation and support of web based applications using best practices",
     "workExperience": [
         {
+            "company": "CGI Deutschland B.V. & CO KG",
+            "location": "Erfurt, Germany",
+            "position": "Senior Consultant",
+            "datesEmpoyed": "Nov 2020 - Present",
+            "jobDuties": [
+                "Implementing Alternative Payment Methods (APM) by integrating with external APM providers for a financial technology & services company using Quarkus Java framework",
+                "Designed and developed an application for viewing and downloading reports using Angular 8 on frontend and Java SpringBoot on backend for a major German Bank",
+                "Developed RESTful web services for processing Outlook emails using Java SpringBoot for a robotic process automation project"
+            ]
+        },
+        {
             "company": "Fedex Services",
             "location": "Collierville, TN, USA",
             "position": "Full Stack Developer II",
