@@ -20,6 +20,7 @@ function init() {
     $("#titleName").text(profile.name);
     $("#aboutMeName").text(profile.name);
     $("#aboutMeDescription").text(profile.aboutMe);
+    $("#currentRole").text(profile.currentRole);
 }
 
 /* Mustache Templates */

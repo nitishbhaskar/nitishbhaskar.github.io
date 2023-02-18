@@ -1,6 +1,7 @@
 {
     "name": "Nitish Bhaskar",
-    "aboutMe": "Passionate Software Developer with 6+ years of knowledge and experience in system design, development, implementation and support of web based applications using best practices",
+    "aboutMe": "Passionate Software Developer with 8+ years of knowledge and experience in system design, development, implementation and support of web based applications using best practices.",
+    "currentRole": "I'm current working as Senior Java backend developer using Quarkus framework for a financial and payment systems client. My work involves integrating and enabling alternative payment methods to the internet payment gateway to process payments from various point of sale systems.",
     "workExperience": [
         {
             "company": "CGI Deutschland B.V. & CO KG",
@@ -92,7 +93,7 @@
         {
             "name": "Bingo!",
             "description": "Built this game of chance to play with family across the globe during coronavirus outbreak",
-            "url": "https://bingo-number-generator.herokuapp.com/",
+            "url": "https://hwn2ml.deta.dev/",
             "githubUrl": "https://github.com/nitishbhaskar/bingo-generator"
         },
         {
@@ -117,6 +118,7 @@
             "type": "Technologies/Framework",
             "list": [
                 "SpringBoot",
+                "Quarkus",
                 "NodeJS",
                 "Angular"
             ]
@@ -138,6 +140,8 @@
         {
             "type": "Others",
             "list": [
+                "Kibana",
+                "Postman",
                 "Pivotal Cloud Foundry",
                 "Jenkins",
                 "JMS",
